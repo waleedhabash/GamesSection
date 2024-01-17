@@ -1,0 +1,119 @@
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Nerko One', cursive;
+    background-color: #272B30;
+}
+
+.site-cover {
+    background-image: url(../img/wraper.png);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+}
+
+nav {
+    background-color: #3A497B;
+    height: 60px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 70%);
+}
+
+.logo h5 {
+    color:
+        rgb(255, 255, 255);
+    font-size: 30px;
+    line-height: 24px;
+    font-weight:400px;
+}
+
+.nav-links li{
+    padding-inline: 10px;
+    color: white;
+    line-height: 18.375px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 12.25px;
+    transition: color 0.3s;
+}
+
+.nav-links li:hover{
+    color: #0D86B9; 
+}
+
+.active{
+    color: #0D86B9 !important;
+}
+
+.card h3{
+    line-height: 16.8px;
+    font-weight:500;
+}
+
+.card button{
+height: 30px;
+width: 60px;
+text-align: center;
+}
+
+.card-footer span{
+   background-color: #32383E;
+    border-radius: 10px;
+    line-height: 10.5px;
+    font-weight: 700px;
+    font-size: 10.5px;
+}
+
+.card .game-details{
+    height:80px;
+color: #9D9E9F;
+ line-height: 21px;
+}
+
+.card {
+    filter: grayscale(0.7);
+    transition: transform 0.5s, filter 0.5s 0.1s;
+}
+
+ .card:hover {
+    transform: scale(1.05);
+    filter: grayscale(0);
+}
+
+.gamedetails h2{
+    color: white;
+    font-size: 28px;
+    line-height: 33.6px;
+    font-weight: 500px;
+}
+
+.gamedetails p{
+    color: white;
+
+}
+
+.gamedetails span{
+    color: #272B30;
+    background-color: #0DCAF0;
+    padding:2px;
+    border-radius: 6px;
+}
+
+
+.game-info .btn {
+    color: white;
+    border: 1px solid #FFC107;
+    font-size: 20px;
+    transition: background-color 0.3s ;
+}
+
+
+.game-info .btn :hover{
+    background-color: #FFC107;
+}
